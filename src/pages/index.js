@@ -1,6 +1,5 @@
 import React from "react"
-
-import { Container } from './styles';
+import { Container } from '../styles/guide';
 
 export default function Home() {
   return (
