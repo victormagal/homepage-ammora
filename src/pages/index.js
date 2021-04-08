@@ -1,12 +1,11 @@
 import React from "react"
 import { Container } from '../styles/guide';
+import Logo from '../assets/logo.svg';
 
 export default function Home() {
   return (
     <Container>
-      <h1>Olá enfermeira Joy!</h1>
-      <p>A enfermeira não se encontra no momento.</p>
-      <button>Clique em mim!</button>
+      <img width={300} src={Logo} alt='Ammora Soluções Digitais' />
     </Container>
   )
 }
